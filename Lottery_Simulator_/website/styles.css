@@ -1,0 +1,166 @@
+
+
+header{
+    display: flex;
+    height: 10%;
+    width: 100vw;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid 1px black;
+}
+
+body {
+    --main-color: #9667a8;
+    --secondary-color: #D30E48;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(var(--main-color), black)
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: auto;
+
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+#navLinksDiv{
+    display: flex;
+    position: fixed;
+    height: 10%;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    left: 80%;
+}
+
+#navLink{
+    padding: 5px;
+    margin: 10px;
+
+}
+
+#companyNameElement{
+    margin: 0;
+    position: center;
+    left: auto;
+    right: auto;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+}
+
+
+#mainLinksContainer{
+    display: flex;
+    height: 80%;
+    width: 75%;   
+    background-color: lightgrey;
+    box-shadow: 1px 1px 5px 3px grey;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border-radius: 10px;
+}
+
+.mainLinkItem{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 30%;
+    width: 20%;
+    background-color: #dddddd;
+    margin: 5%;
+    box-shadow: 1px 1px 4px 5px #cccccc ;
+}
+
+.projectsNav{
+    height: 90vh;
+    width: 20%;
+    top: 10%;
+    position: fixed;
+    border-right: solid black 2px;
+    padding: 0;
+    padding-right: 3px;
+    padding-top: 3px;
+    margin: 2px;
+}
+
+
+.projectLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#projectsNav{
+    height: 90%;
+    position: fixed;
+    border: 1px solid black;
+    top: 10%;
+    width: 20%;
+    background-color: lightgrey;
+    left: 0;
+}
+
+#projectsMain{
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    width: 80%;
+    height: auto;
+}
+
+.Project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+
+
+#projectTitle{
+    font-size: 72px;
+    color: black;
+}
